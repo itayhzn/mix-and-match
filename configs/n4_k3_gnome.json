@@ -1,0 +1,28 @@
+{
+  "name": "n4_k3_gnome",
+  "seed": 2025,
+  "prompt": "A garden gnome with a long white beard standing on the lawn",
+  "style": "in an anime drawing style",
+  "regions": [
+    {
+      "category": "a pointed hat",
+      "connector": "wearing",
+      "tiles": ["a striped party hat", "a pointy red gnome hat", "a tall green felt hat"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a brown leather jerkin", "blue overalls", "a red tunic with a belt"]
+    },
+    {
+      "category": "shoes",
+      "connector": "wearing",
+      "tiles": ["pointy elf shoes", "red clown shoes", "red pointy shoes"]
+    },
+    {
+      "category": "a big mushroom",
+      "connector": "next to",
+      "tiles": ["a giant purple mushroom", "a giant red toadstool", "a big orange mushroom"]
+    }
+  ]
+}

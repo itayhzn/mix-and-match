@@ -1,0 +1,18 @@
+{
+  "name": "n2_k4_classical_b",
+  "seed": 2025,
+  "prompt": "A mythical winged beast with a single head, side view, plain background",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["a goat's head", "a ram's head", "a wolf's head", "a dragon's head"]
+    },
+    {
+      "category": "wings",
+      "connector": "with",
+      "tiles": ["eagle wings", "bat wings", "fiery phoenix wings", "feathered owl wings"]
+    }
+  ]
+}

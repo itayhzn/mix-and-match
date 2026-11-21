@@ -1,0 +1,33 @@
+{
+  "name": "n5_k3_hedgehog",
+  "seed": 7,
+  "prompt": "A hedgehog dressed in clothes, standing upright, front view, plain background",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a red beret", "a black bowler hat", "a brown felt top hat"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a navy sailor jacket", "a blue denim jacket", "a red waistcoat with brass buttons"]
+    },
+    {
+      "category": "boots",
+      "connector": "wearing",
+      "tiles": ["red rubber boots", "blue sneakers", "green rubber boots"]
+    },
+    {
+      "category": "a scarf",
+      "connector": "wearing",
+      "tiles": ["a navy scarf with stars", "a blue wool scarf", "a brown plaid scarf"]
+    },
+    {
+      "category": "a big mushroom",
+      "connector": "next to",
+      "tiles": ["a big orange mushroom", "a big magenta mushroom", "a spotted yellow mushroom"]
+    }
+  ]
+}

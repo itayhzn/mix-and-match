@@ -1,0 +1,23 @@
+{
+  "name": "n3_k6_pirate",
+  "seed": 7,
+  "prompt": "A half-body portrait of a pirate on the deck of a ship",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a tricorn hat",
+      "connector": "wearing",
+      "tiles": ["a navy tricorn hat with gold trim", "a black tricorn hat with a skull", "a brown leather tricorn hat", "a blue tricorn hat", "a purple tricorn hat", "a green tricorn hat with a feather"]
+    },
+    {
+      "category": "a beard",
+      "connector": "with",
+      "tiles": ["a bushy dark brown beard", "a bushy auburn beard", "a bushy red beard", "a bushy brown beard", "a bushy ginger beard", "a bushy dark red beard"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a black leather longcoat", "a long red captain's coat", "a brown frock coat", "a blue naval coat with gold buttons", "a purple velvet coat", "a green velvet coat"]
+    }
+  ]
+}

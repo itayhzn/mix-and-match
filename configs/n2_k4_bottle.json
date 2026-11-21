@@ -1,0 +1,18 @@
+{
+  "name": "n2_k4_bottle",
+  "seed": 2025,
+  "prompt": "A single bottle standing on a white table, front view",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a cap",
+      "connector": "with",
+      "tiles": ["a golden foil cap", "a blue plastic screw cap", "a wooden stopper", "a cork stopper"]
+    },
+    {
+      "category": "a label",
+      "connector": "with",
+      "tiles": ["a blue label with waves", "a red label with a star", "a torn vintage label", "a black label with gold text"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "n5_k3_personpet",
+  "seed": 2025,
+  "prompt": "A single person standing next to their pet in a park",
+  "style": "in a watercolor painting style",
+  "regions": [
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["a short pink bob cut", "short curly red hair", "short wavy brown hair"]
+    },
+    {
+      "category": "a shirt",
+      "connector": "wearing",
+      "tiles": ["a black leather jacket", "a white t-shirt", "a green flannel shirt"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["green cargo pants", "khaki shorts", "blue jeans"]
+    },
+    {
+      "category": "shoes",
+      "connector": "wearing",
+      "tiles": ["black leather dress shoes", "brown cowboy boots", "red high-top sneakers"]
+    },
+    {
+      "category": "a pet",
+      "connector": "with",
+      "tiles": ["a tabby cat", "a dalmatian", "a white rabbit"]
+    }
+  ]
+}

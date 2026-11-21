@@ -1,0 +1,23 @@
+{
+  "name": "n3_k4_personpet",
+  "seed": 7,
+  "prompt": "A single person standing next to their pet in a park",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a shirt",
+      "connector": "wearing",
+      "tiles": ["a black leather jacket", "a green flannel shirt", "a white t-shirt", "a red hoodie"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["khaki shorts", "brown corduroy pants", "blue jeans", "green cargo pants"]
+    },
+    {
+      "category": "a pet",
+      "connector": "with",
+      "tiles": ["a black cat", "a dalmatian", "a tabby cat", "a golden retriever"]
+    }
+  ]
+}

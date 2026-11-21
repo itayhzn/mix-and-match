@@ -1,0 +1,28 @@
+{
+  "name": "n4_k5_chimera",
+  "seed": 7,
+  "prompt": "A large animal with a single head standing in a savanna, side view",
+  "style": "in a sketch style",
+  "regions": [
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["the head of a deer", "the head of a horse", "the head of a zebra", "the head of a lion", "the head of a tiger"]
+    },
+    {
+      "category": "a body",
+      "connector": "with",
+      "tiles": ["the body of a leopard", "the body of a bear", "the body of a horse", "the body of a zebra", "the body of a cow"]
+    },
+    {
+      "category": "legs",
+      "connector": "with",
+      "tiles": ["the legs of a zebra", "the legs of a horse", "the legs of a cow", "the legs of a goat", "the legs of a tiger"]
+    },
+    {
+      "category": "a tail",
+      "connector": "with",
+      "tiles": ["the tail of a lion", "the tail of a zebra", "the tail of a wolf", "the tail of a fox", "the tail of a cow"]
+    }
+  ]
+}

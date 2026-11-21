@@ -1,0 +1,28 @@
+{
+  "name": "n4_k3_scarecrow_s2025",
+  "seed": 2025,
+  "prompt": "A scarecrow with a carved gourd head and its arms spread out to the sides on a wooden cross, standing in a pumpkin patch",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a tattered gray bowler hat", "a brown flat cap", "a dark green bucket hat"]
+    },
+    {
+      "category": "a shirt",
+      "connector": "wearing",
+      "tiles": ["a dark green plaid shirt", "a patched denim jacket", "a ragged green sweater"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["faded green work pants", "burgundy corduroy pants", "red plaid trousers"]
+    },
+    {
+      "category": "a bird",
+      "connector": "with",
+      "tiles": ["a red-headed woodpecker flying next to it", "a brown hawk flying next to it", "a black crow flying next to it"]
+    }
+  ]
+}

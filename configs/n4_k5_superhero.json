@@ -1,0 +1,28 @@
+{
+  "name": "n4_k5_superhero",
+  "seed": 2025,
+  "prompt": "A front view half-body portrait of a superhero, plain background",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "an eye mask",
+      "connector": "wearing",
+      "tiles": ["an orange mask with black stripes", "a purple mask with feathers", "a blue mask with silver stars", "a gold metal mask", "a green scaly mask"]
+    },
+    {
+      "category": "a cape",
+      "connector": "wearing",
+      "tiles": ["a dark red cape with gold trim", "an orange cape with flames", "a blue cape with a high collar", "a long green cape", "a long red cape"]
+    },
+    {
+      "category": "a chest emblem",
+      "connector": "with",
+      "tiles": ["a flame emblem", "a spider emblem", "a diamond emblem", "a crescent moon emblem", "an eagle emblem"]
+    },
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["slicked back dark red hair", "long flowing purple hair", "a short blue mohawk", "messy dark brown hair", "a dark auburn quiff"]
+    }
+  ]
+}

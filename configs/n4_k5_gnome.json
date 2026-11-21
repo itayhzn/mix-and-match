@@ -1,0 +1,28 @@
+{
+  "name": "n4_k5_gnome",
+  "seed": 2025,
+  "prompt": "A garden gnome with a long white beard standing on the lawn",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "a pointed hat",
+      "connector": "wearing",
+      "tiles": ["a black witch hat", "a blue wizard hat with stars", "a tall green felt hat", "a pointy knitted hat with a pompom", "a striped party hat"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a red tunic with a belt", "an orange tunic with a belt", "a blue tunic with brass buttons", "a green tunic with a belt", "blue overalls"]
+    },
+    {
+      "category": "shoes",
+      "connector": "wearing",
+      "tiles": ["red pointy shoes", "black leather boots", "dark wooden clogs", "brown leather boots", "pointy elf shoes"]
+    },
+    {
+      "category": "a big mushroom",
+      "connector": "next to",
+      "tiles": ["a big orange mushroom", "a spotted yellow mushroom", "a giant purple mushroom", "a glowing blue mushroom", "a big brown mushroom"]
+    }
+  ]
+}

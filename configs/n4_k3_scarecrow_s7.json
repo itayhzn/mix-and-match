@@ -1,0 +1,28 @@
+{
+  "name": "n4_k3_scarecrow_s7",
+  "seed": 7,
+  "prompt": "A scarecrow standing in a wheat field",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a battered straw hat", "a tattered gray bowler hat", "a brown cowboy hat"]
+    },
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["a white linen head with a drawn frown", "a gourd head with a carved face", "a carved pumpkin head"]
+    },
+    {
+      "category": "a shirt",
+      "connector": "wearing",
+      "tiles": ["a torn brown vest over a shirt", "a ragged green sweater", "a checkered yellow shirt"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["red shorts", "burlap trousers", "faded green work pants"]
+    }
+  ]
+}

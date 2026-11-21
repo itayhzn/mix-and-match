@@ -1,0 +1,23 @@
+{
+  "name": "n3_k4_face",
+  "seed": 2025,
+  "prompt": "A front-facing portrait of a person from the shoulders up, looking straight at the camera, with a neutral background",
+  "style": "in a low poly style",
+  "regions": [
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["short curly red hair", "short straight black hair", "short wavy brown hair", "a short dark purple bob cut"]
+    },
+    {
+      "category": "the eyes and eyebrows",
+      "connector": "with",
+      "tiles": ["round green-framed glasses", "red cat-eye glasses", "square blue-framed glasses", "thick black-rimmed glasses"]
+    },
+    {
+      "category": "the neckline and shoulders",
+      "connector": "wearing",
+      "tiles": ["a brown leather jacket", "a burgundy sweater", "a dark green hoodie", "a navy blazer with a red tie"]
+    }
+  ]
+}

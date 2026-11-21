@@ -1,0 +1,18 @@
+{
+  "name": "n2_k5_babytoy",
+  "seed": 2025,
+  "prompt": "A baby sitting on a rug next to a big stuffed toy",
+  "style": "in an anime drawing style",
+  "regions": [
+    {
+      "category": "a baby",
+      "connector": "",
+      "tiles": ["a baby in a blue suit", "a baby in a pink suit", "a baby in a green dinosaur onesie", "a baby in a yellow duck costume", "a baby in a bear costume"]
+    },
+    {
+      "category": "a big stuffed toy",
+      "connector": "next to",
+      "tiles": ["a plush lion", "a stuffed elephant", "a plush dinosaur", "a plush monkey", "a stuffed bunny"]
+    }
+  ]
+}

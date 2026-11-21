@@ -1,0 +1,18 @@
+{
+  "name": "n2_k8_rabbit",
+  "seed": 2025,
+  "prompt": "A rabbit dressed in clothes, standing upright on a mossy path in the woods",
+  "style": "in a watercolor painting style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a black bowler hat", "a blue knitted beanie", "a red knitted hat with a pompom", "a purple wizard hat", "a red beret", "a green feathered hunting hat", "a brown felt top hat", "an orange knitted hat with earflaps"]
+    },
+    {
+      "category": "a big mushroom",
+      "connector": "next to",
+      "tiles": ["a giant red toadstool", "a spotted yellow mushroom", "a big magenta mushroom", "a big orange mushroom", "a giant purple mushroom", "a big brown mushroom", "a big green mushroom", "a glowing blue mushroom"]
+    }
+  ]
+}

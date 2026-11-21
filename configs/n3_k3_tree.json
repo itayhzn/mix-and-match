@@ -1,0 +1,23 @@
+{
+  "name": "n3_k3_tree",
+  "seed": 7,
+  "prompt": "A lone tree on a hill with an animal beside it",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "leaves",
+      "connector": "with",
+      "tiles": ["orange autumn leaves", "pink cherry blossoms", "yellow ginkgo leaves"]
+    },
+    {
+      "category": "a trunk",
+      "connector": "with",
+      "tiles": ["a white birch trunk", "a trunk with an owl in a woodpecker hole", "a plain brown trunk"]
+    },
+    {
+      "category": "an animal",
+      "connector": "next to",
+      "tiles": ["a gray wolf", "a red fox", "a hare"]
+    }
+  ]
+}

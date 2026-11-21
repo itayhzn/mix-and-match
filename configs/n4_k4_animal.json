@@ -1,0 +1,28 @@
+{
+  "name": "n4_k4_animal",
+  "seed": 7,
+  "prompt": "A hedgehog dressed in clothes, standing upright on a mossy path in the woods",
+  "style": "in a line art style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a blue knitted beanie", "a purple wizard hat", "a black bowler hat", "a green feathered hunting hat"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a green tweed jacket", "an orange hoodie", "a navy sailor jacket", "a blue denim jacket"]
+    },
+    {
+      "category": "boots",
+      "connector": "wearing",
+      "tiles": ["black leather boots", "dark wooden clogs", "blue sneakers", "yellow rain boots"]
+    },
+    {
+      "category": "a scarf",
+      "connector": "wearing",
+      "tiles": ["a green striped scarf", "a purple scarf", "a yellow scarf", "a navy scarf with stars"]
+    }
+  ]
+}

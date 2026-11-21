@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_snowman",
+  "seed": 7,
+  "prompt": "A snowman standing in a snowy garden",
+  "style": "in a watercolor painting style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a purple top hat", "a red top hat", "a metal bucket", "a flower pot", "a black top hat", "a tall green top hat"]
+    },
+    {
+      "category": "a scarf",
+      "connector": "wearing",
+      "tiles": ["a feather boa", "a plaid wool scarf", "a thick knitted scarf with tassels", "a long striped scarf", "a blue scarf with snowflakes", "a red knitted scarf"]
+    }
+  ]
+}

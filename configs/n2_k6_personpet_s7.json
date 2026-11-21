@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_personpet_s7",
+  "seed": 7,
+  "prompt": "A single person standing next to their pet in a park",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a person",
+      "connector": "",
+      "tiles": ["a young woman in a dress", "a woman", "a teenage boy", "an old lady", "an old man", "a man"]
+    },
+    {
+      "category": "a dog",
+      "connector": "with",
+      "tiles": ["a black labrador", "a golden retriever", "a boxer dog", "a chocolate labrador", "a border collie", "a german shepherd"]
+    }
+  ]
+}

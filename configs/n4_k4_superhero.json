@@ -1,0 +1,28 @@
+{
+  "name": "n4_k4_superhero",
+  "seed": 7,
+  "prompt": "A front view half-body portrait of a superhero, plain background",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "an eye mask",
+      "connector": "wearing",
+      "tiles": ["a black domino mask", "a gold metal mask", "a purple mask with feathers", "a silver mask with blue gems"]
+    },
+    {
+      "category": "a cape",
+      "connector": "wearing",
+      "tiles": ["a golden cape with stars", "a long red cape", "a long green cape", "an orange cape with flames"]
+    },
+    {
+      "category": "a chest emblem",
+      "connector": "with",
+      "tiles": ["a star emblem", "a crescent moon emblem", "a diamond emblem", "a spider emblem"]
+    },
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["long black hair in a ponytail", "a dark auburn quiff", "short spiky black hair", "long flowing purple hair"]
+    }
+  ]
+}

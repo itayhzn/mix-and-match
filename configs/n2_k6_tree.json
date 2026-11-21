@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_tree",
+  "seed": 7,
+  "prompt": "A single tree standing in an empty meadow, front view",
+  "style": "in a pop art style",
+  "regions": [
+    {
+      "category": "leaves",
+      "connector": "with",
+      "tiles": ["pink cherry blossoms", "purple jacaranda flowers", "dark red copper beech leaves", "red maple leaves", "yellow ginkgo leaves", "green summer leaves"]
+    },
+    {
+      "category": "an animal",
+      "connector": "next to",
+      "tiles": ["a hare", "a raccoon", "a dog", "a brown deer", "a red fox", "a black bear"]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_mermaid",
+  "seed": 2025,
+  "prompt": "A full-body mermaid with a long fish tail instead of legs, sitting on a rock in the sea",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["long auburn hair with seashells", "long black braided hair", "long wavy purple hair", "short spiky blue hair", "long teal hair", "long dark brown hair"]
+    },
+    {
+      "category": "a fish tail",
+      "connector": "with",
+      "tiles": ["a green scaly fish tail", "a blue scaly fish tail", "an orange koi fish tail", "a golden fish tail with a fan fin", "a gray shark tail", "a red fish tail"]
+    }
+  ]
+}

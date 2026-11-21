@@ -1,0 +1,28 @@
+{
+  "name": "teaser_portrait",
+  "seed": 123,
+  "prompt": "A head-and-shoulders portrait of a person",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "the hair",
+      "connector": "with",
+      "tiles": ["a red bob cut", "spiky blue hair", "brown wavy hair", "a short black afro"]
+    },
+    {
+      "category": "sunglasses",
+      "connector": "wearing",
+      "tiles": ["blue round sunglasses", "green square sunglasses", "yellow cat-eye sunglasses", "black aviator sunglasses"]
+    },
+    {
+      "category": "a beard",
+      "connector": "with",
+      "tiles": ["a short black full beard", "a brown handlebar mustache", "a short red full beard", "a brown goatee"]
+    },
+    {
+      "category": "the neckline and shoulders",
+      "connector": "wearing",
+      "tiles": ["a green hoodie", "a denim jacket", "a pearl necklace", "a burgundy sweater"]
+    }
+  ]
+}

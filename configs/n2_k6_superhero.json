@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_superhero",
+  "seed": 7,
+  "prompt": "A half-body portrait of a superhero on a rooftop at night",
+  "style": "in an anime drawing style",
+  "regions": [
+    {
+      "category": "a cape",
+      "connector": "wearing",
+      "tiles": ["a black tattered cape", "a golden cape with stars", "a dark red cape with gold trim", "an orange cape with flames", "a blue cape with a high collar", "a long green cape"]
+    },
+    {
+      "category": "a chest emblem",
+      "connector": "with",
+      "tiles": ["a crescent moon emblem", "a flame emblem", "a star emblem", "a lightning bolt emblem", "a diamond emblem", "an eagle emblem"]
+    }
+  ]
+}

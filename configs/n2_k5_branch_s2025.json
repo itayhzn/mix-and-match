@@ -1,0 +1,18 @@
+{
+  "name": "n2_k5_branch_s2025",
+  "seed": 2025,
+  "prompt": "A close-up of a mossy tree branch with a bird and a mushroom on it",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "a bird",
+      "connector": "with",
+      "tiles": ["a blue jay", "a gray pigeon", "a black crow", "a red cardinal", "an owl"]
+    },
+    {
+      "category": "a mushroom",
+      "connector": "with",
+      "tiles": ["a purple mushroom", "a glowing green mushroom", "a red and white mushroom", "a yellow mushroom", "a brown mushroom with a wide cap"]
+    }
+  ]
+}

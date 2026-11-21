@@ -1,0 +1,28 @@
+{
+  "name": "n4_k4_portrait_s42",
+  "seed": 42,
+  "prompt": "A head-and-shoulders portrait of a person",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a black beret", "a denim bucket hat", "a brown cowboy hat", "a black top hat"]
+    },
+    {
+      "category": "sunglasses",
+      "connector": "wearing",
+      "tiles": ["black sunglasses", "red sunglasses", "blue sunglasses", "green sunglasses"]
+    },
+    {
+      "category": "a beard",
+      "connector": "with",
+      "tiles": ["a short black beard", "a short brown beard", "a short red beard", "a short blonde beard"]
+    },
+    {
+      "category": "the neckline and shoulders",
+      "connector": "wearing",
+      "tiles": ["a red plaid flannel shirt", "a burgundy sweater", "a gray hoodie", "a pearl necklace"]
+    }
+  ]
+}

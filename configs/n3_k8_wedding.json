@@ -1,0 +1,23 @@
+{
+  "name": "n3_k8_wedding",
+  "seed": 7,
+  "prompt": "A bride and groom standing together at their wedding",
+  "style": "in a watercolor painting style",
+  "regions": [
+    {
+      "category": "an arch",
+      "connector": "under",
+      "tiles": ["a wooden arch with ivy", "a dark iron arch", "an arch of red balloons", "a stone archway", "an arch of green leaves", "a copper metal arch", "a golden metal arch", "a bamboo arch"]
+    },
+    {
+      "category": "the groom's hair",
+      "connector": "the groom with",
+      "tiles": ["short wavy brown hair", "short auburn hair", "short curly red hair", "short curly black hair", "a dark brown pompadour", "a short black afro", "a dark brown buzz cut", "slicked back black hair"]
+    },
+    {
+      "category": "the groom's suit",
+      "connector": "the groom wearing",
+      "tiles": ["a dark purple suit", "a midnight blue velvet tuxedo", "a charcoal gray suit", "a navy suit", "a dark brown suit", "a burgundy velvet suit", "a dark green suit", "a black tuxedo"]
+    }
+  ]
+}

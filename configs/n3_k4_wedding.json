@@ -1,0 +1,23 @@
+{
+  "name": "n3_k4_wedding",
+  "seed": 7,
+  "prompt": "A bride and groom standing side by side, front view, plain background",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "the bride's whole dress",
+      "connector": "the bride wearing",
+      "tiles": ["an ivory satin gown", "a pale peach gown", "a champagne silk gown", "a blush pink gown"]
+    },
+    {
+      "category": "the groom's hair",
+      "connector": "the groom with",
+      "tiles": ["short wavy brown hair", "slicked back black hair", "a dark brown pompadour", "short auburn hair"]
+    },
+    {
+      "category": "the groom's suit",
+      "connector": "the groom wearing",
+      "tiles": ["a midnight blue velvet tuxedo", "a dark green suit", "a burgundy velvet suit", "a navy suit"]
+    }
+  ]
+}

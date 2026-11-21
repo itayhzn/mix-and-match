@@ -1,0 +1,28 @@
+{
+  "name": "n4_k4_wedding",
+  "seed": 7,
+  "prompt": "A bride and groom standing together at their wedding",
+  "style": "in an anime drawing style",
+  "regions": [
+    {
+      "category": "the bride's hair",
+      "connector": "the bride with",
+      "tiles": ["long curly red hair", "long straight black hair", "a big black afro", "long wavy brown hair"]
+    },
+    {
+      "category": "the bride's whole dress",
+      "connector": "the bride wearing",
+      "tiles": ["an ivory satin gown", "a pale blue gown", "a lavender tulle gown", "a blush pink gown"]
+    },
+    {
+      "category": "the groom's hair",
+      "connector": "the groom with",
+      "tiles": ["short wavy brown hair", "a short black afro", "short auburn hair", "a dark brown buzz cut"]
+    },
+    {
+      "category": "the groom's suit",
+      "connector": "the groom wearing",
+      "tiles": ["a dark green suit", "a charcoal gray suit", "a burgundy velvet suit", "a navy suit"]
+    }
+  ]
+}

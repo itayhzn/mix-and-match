@@ -1,0 +1,23 @@
+{
+  "name": "n3_k5_gnome",
+  "seed": 7,
+  "prompt": "A garden gnome with a long white beard sitting on a rock",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a pointed hat",
+      "connector": "wearing",
+      "tiles": ["a pointy purple hat", "a pointy knitted hat with a pompom", "a black witch hat", "a blue wizard hat with stars", "a striped party hat"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a dark green jacket with patches", "a green tunic with a belt", "blue overalls", "a blue tunic with brass buttons", "a red tunic with a belt"]
+    },
+    {
+      "category": "shoes",
+      "connector": "wearing",
+      "tiles": ["red clown shoes", "brown leather boots", "dark wooden clogs", "black leather boots", "pointy elf shoes"]
+    }
+  ]
+}

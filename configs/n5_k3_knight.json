@@ -1,0 +1,33 @@
+{
+  "name": "n5_k3_knight",
+  "seed": 7,
+  "prompt": "A knight standing on a battlefield",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a helmet",
+      "connector": "wearing",
+      "tiles": ["a golden crowned helmet", "a dark visored great helm", "a bronze roman helmet"]
+    },
+    {
+      "category": "armor",
+      "connector": "wearing",
+      "tiles": ["rusty chain mail", "leather scale armor", "shining silver plate armor"]
+    },
+    {
+      "category": "a cape",
+      "connector": "wearing",
+      "tiles": ["a green velvet cape", "a long red cape", "a black fur cloak"]
+    },
+    {
+      "category": "boots",
+      "connector": "wearing",
+      "tiles": ["golden boots", "black spiked boots", "steel armored boots"]
+    },
+    {
+      "category": "a horse",
+      "connector": "next to",
+      "tiles": ["a white horse", "a gray horse with a blue blanket", "a golden armored horse"]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "n3_k8_robot",
+  "seed": 7,
+  "prompt": "A robot standing in a workshop",
+  "style": "in a sketch style",
+  "regions": [
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["a round glass dome head with two eyes", "a skull-shaped metal head with two eyes", "a cylindrical head with two lens eyes", "a bucket-shaped head with two round eyes", "an old television set head with two eyes on the screen", "a helmet-shaped head with two glowing eyes", "a boxy head with antennas and two eyes", "a triangular head with two red eyes"]
+    },
+    {
+      "category": "a torso",
+      "connector": "with",
+      "tiles": ["a torso with a screen", "a transparent torso showing gears", "a sleek blue torso", "a torso with a glowing core", "a barrel-shaped copper torso", "a gold plated torso", "a rusty riveted torso", "a boxy torso with dials"]
+    },
+    {
+      "category": "legs",
+      "connector": "with",
+      "tiles": ["heavy metal legs with boots", "short stubby legs", "spring legs", "legs with rocket boosters", "thin chrome legs", "tank tread legs", "hydraulic piston legs", "bird-like metal legs"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "n4_k3_pirate",
+  "seed": 2025,
+  "prompt": "A half-body portrait of a pirate on the deck of a ship",
+  "style": "in a cartoon style",
+  "regions": [
+    {
+      "category": "a tricorn hat",
+      "connector": "wearing",
+      "tiles": ["a purple tricorn hat", "a navy tricorn hat with gold trim", "a blue tricorn hat"]
+    },
+    {
+      "category": "a beard",
+      "connector": "with",
+      "tiles": ["a bushy red beard", "a bushy black beard", "a bushy dark brown beard"]
+    },
+    {
+      "category": "a coat",
+      "connector": "wearing",
+      "tiles": ["a blue naval coat with gold buttons", "a burgundy coat with gold trim", "a long red captain's coat"]
+    },
+    {
+      "category": "a bird",
+      "connector": "with",
+      "tiles": ["a gray parrot on its shoulder", "a rainbow lorikeet on its shoulder", "a blue parrot on its shoulder"]
+    }
+  ]
+}

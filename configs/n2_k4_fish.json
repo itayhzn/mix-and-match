@@ -1,0 +1,18 @@
+{
+  "name": "n2_k4_fish",
+  "seed": 7,
+  "prompt": "A big fish swimming in clear blue water, side view, plain background",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["the head of a shark", "the head of a pufferfish", "the head of a dolphin", "the head of a clownfish"]
+    },
+    {
+      "category": "a tail",
+      "connector": "with",
+      "tiles": ["a swordfish tail", "a striped clownfish tail", "a blue marlin tail", "a shark tail"]
+    }
+  ]
+}

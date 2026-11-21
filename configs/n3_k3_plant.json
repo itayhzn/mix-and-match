@@ -1,0 +1,23 @@
+{
+  "name": "n3_k3_plant",
+  "seed": 7,
+  "prompt": "A close-up of a potted flowering plant on a wooden table",
+  "style": "in a digital painting style",
+  "regions": [
+    {
+      "category": "a pot",
+      "connector": "in",
+      "tiles": ["a terracotta pot", "a green painted pot", "a blue glazed ceramic pot"]
+    },
+    {
+      "category": "flowers",
+      "connector": "with",
+      "tiles": ["orange marigolds", "pink peonies", "purple tulips"]
+    },
+    {
+      "category": "a small bird",
+      "connector": "next to",
+      "tiles": ["a yellow canary", "a robin", "a blue tit"]
+    }
+  ]
+}

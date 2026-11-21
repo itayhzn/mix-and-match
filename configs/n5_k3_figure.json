@@ -1,0 +1,33 @@
+{
+  "name": "n5_k3_figure",
+  "seed": 2025,
+  "prompt": "A person standing straight and facing the camera, arms to the sides, full body, in an empty studio",
+  "style": "in a low poly style",
+  "regions": [
+    {
+      "category": "a face",
+      "connector": "with",
+      "tiles": ["a tiger face", "a red demon face", "a green ogre face"]
+    },
+    {
+      "category": "hands",
+      "connector": "with",
+      "tiles": ["red Spider-Man gloves", "Iron Man suit gauntlets", "black leather gloves"]
+    },
+    {
+      "category": "a torso",
+      "connector": "wearing",
+      "tiles": ["a steel knight breastplate", "the top of a Superman suit", "a black tuxedo jacket"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["blue jeans", "brown corduroy pants", "black leather pants"]
+    },
+    {
+      "category": "shoes",
+      "connector": "wearing",
+      "tiles": ["navy canvas sneakers", "green rubber boots", "black leather dress shoes"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Python 3.10+ and a CUDA GPU. Mix-and-Match uses PyTorch's flex attention (torch >= 2.6); SAM 3 is in
+# transformers >= 5. The scheduler comes from diffusers.
+torch>=2.6
+torchvision
+diffusers>=0.35
+transformers>=5.0
+huggingface_hub
+numpy
+scipy
+pillow
+tqdm

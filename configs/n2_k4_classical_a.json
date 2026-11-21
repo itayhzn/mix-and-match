@@ -1,0 +1,18 @@
+{
+  "name": "n2_k4_classical_a",
+  "seed": 2025,
+  "prompt": "A mythical winged beast with a single head, side view, plain background",
+  "style": "in a cartoon style",
+  "regions": [
+    {
+      "category": "a head",
+      "connector": "with",
+      "tiles": ["a wolf's head", "a ram's head", "an eagle's head", "a goat's head"]
+    },
+    {
+      "category": "wings",
+      "connector": "with",
+      "tiles": ["white swan wings", "scaly dragon wings", "feathered owl wings", "bat wings"]
+    }
+  ]
+}

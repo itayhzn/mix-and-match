@@ -1,0 +1,23 @@
+{
+  "name": "n3_k6_face",
+  "seed": 7,
+  "prompt": "A head-and-shoulders portrait of a person",
+  "style": "in a low poly style",
+  "regions": [
+    {
+      "category": "hair",
+      "connector": "with",
+      "tiles": ["short auburn hair", "a short dark purple bob cut", "short spiky blue hair", "a short black afro", "short curly red hair", "short straight black hair"]
+    },
+    {
+      "category": "sunglasses",
+      "connector": "wearing",
+      "tiles": ["black wayfarer sunglasses", "black cat-eye sunglasses", "dark aviator sunglasses", "red heart-shaped sunglasses", "round dark purple sunglasses", "dark green sports sunglasses"]
+    },
+    {
+      "category": "a mustache",
+      "connector": "with",
+      "tiles": ["a brown horseshoe mustache", "a ginger walrus mustache", "a long curled dark purple mustache", "a thick dark green mustache", "a bushy bright red mustache", "a thick black handlebar mustache"]
+    }
+  ]
+}

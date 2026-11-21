@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_wedding",
+  "seed": 2025,
+  "prompt": "A bride and groom posing in a garden",
+  "style": "in a low poly style",
+  "regions": [
+    {
+      "category": "the bride's whole dress",
+      "connector": "the bride wearing",
+      "tiles": ["a white beaded mermaid dress", "a blush pink gown", "a pale blue gown", "an ivory satin gown", "a lavender tulle gown", "a white lace wedding dress"]
+    },
+    {
+      "category": "the groom's suit",
+      "connector": "the groom wearing",
+      "tiles": ["a black tuxedo", "a dark green suit", "a burgundy velvet suit", "a dark brown suit", "a charcoal gray suit", "a navy suit"]
+    }
+  ]
+}

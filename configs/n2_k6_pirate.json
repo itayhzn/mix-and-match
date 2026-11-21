@@ -1,0 +1,18 @@
+{
+  "name": "n2_k6_pirate",
+  "seed": 7,
+  "prompt": "A half-body portrait of a pirate on the deck of a ship",
+  "style": "in a pixel art style",
+  "regions": [
+    {
+      "category": "a beard",
+      "connector": "with",
+      "tiles": ["a bushy dark brown beard", "a bushy black beard", "a bushy dark red beard", "a bushy red beard", "a bushy brown beard", "a bushy ginger beard"]
+    },
+    {
+      "category": "a bird",
+      "connector": "next to",
+      "tiles": ["a rainbow lorikeet", "a blue-and-yellow macaw", "a blue parrot", "a gray parrot", "a scarlet macaw", "a green parrot"]
+    }
+  ]
+}

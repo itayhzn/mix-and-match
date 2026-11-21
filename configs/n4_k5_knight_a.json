@@ -1,0 +1,28 @@
+{
+  "name": "n4_k5_knight_a",
+  "seed": 2025,
+  "prompt": "A knight standing in a castle courtyard",
+  "style": "in a sketch style",
+  "regions": [
+    {
+      "category": "a helmet",
+      "connector": "wearing",
+      "tiles": ["a steel helmet with a visor", "a bronze roman helmet", "a golden crowned helmet", "a dark visored great helm", "a rusty iron helmet"]
+    },
+    {
+      "category": "armor",
+      "connector": "wearing",
+      "tiles": ["blue enameled armor", "shining silver plate armor", "black spiked armor", "rusty chain mail", "golden ornate armor"]
+    },
+    {
+      "category": "a cape",
+      "connector": "wearing",
+      "tiles": ["a green velvet cape", "a white cape with a red cross", "a black fur cloak", "a purple velvet cape", "a long red cape"]
+    },
+    {
+      "category": "boots",
+      "connector": "wearing",
+      "tiles": ["brown leather riding boots", "black spiked boots", "chain mail boots", "fur-lined boots", "steel armored boots"]
+    }
+  ]
+}

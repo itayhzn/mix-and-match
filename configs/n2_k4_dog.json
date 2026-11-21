@@ -1,0 +1,18 @@
+{
+  "name": "n2_k4_dog",
+  "seed": 7,
+  "prompt": "A close-up portrait of a dog facing the camera, plain background",
+  "style": "in a realistic picture style",
+  "regions": [
+    {
+      "category": "a hat",
+      "connector": "wearing",
+      "tiles": ["a knitted hat with a pompom", "a white sailor cap", "a baseball cap", "a red beanie"]
+    },
+    {
+      "category": "a collar",
+      "connector": "wearing",
+      "tiles": ["a gold chain", "a spiked black collar", "a red leather collar", "a blue collar with a bell"]
+    }
+  ]
+}

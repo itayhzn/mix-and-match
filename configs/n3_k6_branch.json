@@ -1,0 +1,23 @@
+{
+  "name": "n3_k6_branch",
+  "seed": 2025,
+  "prompt": "A close-up of a tree branch in a forest with a bird on it",
+  "style": "in an oil painting style",
+  "regions": [
+    {
+      "category": "a bird",
+      "connector": "with",
+      "tiles": ["a red cardinal", "a gray pigeon", "an owl", "a black crow", "a robin", "a blue jay"]
+    },
+    {
+      "category": "a mushroom",
+      "connector": "with",
+      "tiles": ["a yellow mushroom", "a blue mushroom", "an orange mushroom", "a tall white mushroom", "a glowing green mushroom", "a brown mushroom with a wide cap"]
+    },
+    {
+      "category": "a leaf",
+      "connector": "with",
+      "tiles": ["a holly leaf", "a red maple leaf", "a yellow autumn leaf", "a green leaf", "an oak leaf", "a birch leaf"]
+    }
+  ]
+}

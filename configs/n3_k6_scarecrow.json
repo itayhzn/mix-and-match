@@ -1,0 +1,23 @@
+{
+  "name": "n3_k6_scarecrow",
+  "seed": 7,
+  "prompt": "A scarecrow with a carved pumpkin head and its arms spread out to the sides on a wooden cross, standing in a field, front view",
+  "style": "in a line art style",
+  "regions": [
+    {
+      "category": "a shirt",
+      "connector": "wearing",
+      "tiles": ["a ragged green sweater", "a faded blue work shirt", "a dark green plaid shirt", "a patched denim jacket", "a torn brown coat", "a purple checkered shirt"]
+    },
+    {
+      "category": "pants",
+      "connector": "wearing",
+      "tiles": ["faded green work pants", "brown overalls with patches", "patched brown trousers", "blue jeans", "red plaid trousers", "ragged black trousers"]
+    },
+    {
+      "category": "a bird",
+      "connector": "with",
+      "tiles": ["a black crow perched on its arm", "a red-headed woodpecker perched on its arm", "a red cardinal perched on its arm", "a blue jay perched on its arm", "a brown owl perched on its arm", "a brown hawk perched on its arm"]
+    }
+  ]
+}
