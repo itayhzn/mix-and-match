@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mix-and-Match generates a library of interchangeable tiles in one run; every combination of them is a coherent image.">
+  <title>Mix-and-Match: Generating Globally Coherent Images from Interchangeable Tiles</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='13' height='13' rx='3' fill='%23e6194b'/%3E%3Crect x='17' y='2' width='13' height='13' rx='3' fill='%233cb44b'/%3E%3Crect x='2' y='17' width='13' height='13' rx='3' fill='%23f0a30a'/%3E%3Crect x='17' y='17' width='13' height='13' rx='3' fill='%230082c8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav id="nav">
+  <div class="nav-wrap">
+    <a href="#hero" class="nav-logo">Mix<b>·</b>and<b>·</b>Match</a>
+    <ul class="nav-links">
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#explore">Explore</a></li>
+      <li><a href="#method">Method</a></li>
+      <li><a href="#bibtex">BibTeX</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-noise"></div>
+  <div class="hero-body">
+    <div class="venue-pill">Preprint &middot; Under review</div>
+    <h1 class="hero-title">
+      <em>Mix-and-Match</em><br>
+      Generating Globally Coherent Images<br class="br-wide"> from Interchangeable Tiles
+    </h1>
+    <p class="hero-authors">Shaham Zilber<sup>*</sup>&ensp;·&ensp;Itay Hazan<sup>*</sup>&ensp;·&ensp;Lior Wolf</p>
+    <p class="hero-affil"><sup>*</sup>Equal contribution</p>
+    <p class="hero-sub">One run draws a library of alternatives for every region of an image.
+      Pick any tile per region: every combination is a single, coherent picture.</p>
+    <div class="hero-btns">
+      <a href="javascript:void(0)" class="btn btn-primary" id="paper-link" title="Coming soon on arXiv"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>Paper</a>
+      <a href="https://github.com/itayhzn/mix-and-match" class="btn btn-ghost" target="_blank" rel="noopener"><svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>Code</a>
+      <a href="#bibtex" class="btn btn-ghost"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>Cite</a>
+    </div>
+  </div>
+  <a href="#gallery" class="hero-scroll" aria-label="Scroll to the gallery"><span></span></a>
+</section>
+
+<section class="sec" id="gallery">
+  <div class="sec-inner sec-wide">
+    <div class="reveal">
+      <div class="sec-eyebrow">Gallery</div>
+      <h2 class="sec-title">Libraries in motion</h2>
+      <p class="sec-body">Each picture below is one library. Every two seconds, every picture becomes
+        another random combination of its library's tiles; nothing is regenerated, the tiles are simply swapped.</p>
+    </div>
+    <div id="auto-grid" class="auto-grid reveal reveal-d1" aria-live="off"></div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="explore">
+  <div class="sec-inner sec-wide">
+    <div class="reveal">
+      <div class="sec-eyebrow">Explore</div>
+      <h2 class="sec-title">Mix your own</h2>
+      <p class="sec-body">Pick a library, then click a region of the image to cycle through its tiles, or choose
+        a tile by its prompt on the right.</p>
+    </div>
+
+    <div class="strip-wrap reveal reveal-d1">
+      <button class="strip-arrow strip-arrow-l" id="strip-prev" aria-label="Previous libraries">&#8249;</button>
+      <div class="strip" id="strip" role="listbox" aria-label="Libraries"></div>
+      <button class="strip-arrow strip-arrow-r" id="strip-next" aria-label="Next libraries">&#8250;</button>
+    </div>
+
+    <div class="viewer-card reveal reveal-d1" id="viewer">
+      <div class="viewer-stage">
+        <div class="stage" id="stage">
+          <div class="layers" id="stage-layers"></div>
+          <canvas class="stage-overlay" id="stage-overlay"></canvas>
+          <div class="stage-tip" id="stage-tip"></div>
+        </div>
+        <div class="stage-bar">
+          <span class="combo" id="combo"></span>
+          <span class="stage-bar-btns">
+            <label class="toggle"><input type="checkbox" id="show-regions"><span>Regions</span></label>
+            <button class="pill-btn" id="btn-random">Shuffle</button>
+            <button class="pill-btn" id="btn-reset">Reset</button>
+          </span>
+        </div>
+      </div>
+      <aside class="panel" id="panel">
+        <div class="panel-global">
+          <div class="panel-label">Shared prompt</div>
+          <p class="panel-prompt" id="global-prompt"></p>
+        </div>
+        <div id="region-list"></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="method">
+  <div class="sec-inner sec-wide">
+    <div class="reveal">
+      <div class="sec-eyebrow">Method</div>
+      <h2 class="sec-title">How a library is made</h2>
+    </div>
+    <figure class="method-fig reveal reveal-d1">
+      <a href="img/method.webp" target="_blank" rel="noopener">
+        <img src="img/method.webp" width="2063" height="1095" loading="lazy"
+             alt="Method overview: a shared prefix, branches that choose a tile per region with SAM 3, dynamic region segmentation, and joint denoising of k copies into the tile library.">
+      </a>
+    </figure>
+    <div class="method-cta reveal">
+      <p>If you got this far, read the paper for more details!</p>
+      <a href="javascript:void(0)" class="btn btn-primary" title="Coming soon on arXiv"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>Read the paper</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="bibtex">
+  <div class="sec-inner">
+    <div class="reveal">
+      <div class="sec-eyebrow">Citation</div>
+      <h2 class="sec-title">BibTeX</h2>
+    </div>
+    <div class="bib-card reveal reveal-d1">
+      <div class="bib-bar">
+        <div class="bib-dots"><span></span><span></span><span></span></div>
+        <span class="bib-fname">citation.bib</span>
+        <button class="btn-copy" id="copy-btn" type="button">Copy</button>
+      </div>
+      <pre class="bib-code" id="bib-raw">@article{zilber2026mixandmatch,
+  title   = {Mix-and-Match: Generating Globally Coherent Images from Interchangeable Tiles},
+  author  = {Zilber, Shaham and Hazan, Itay and Wolf, Lior},
+  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  year    = {2026}
+}</pre>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Mix-and-Match · Preprint, under review</p>
+</footer>
+
+<script src="data/manifest.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
